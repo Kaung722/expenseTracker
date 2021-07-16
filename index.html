@@ -11,8 +11,41 @@
       <h1>Expense Tracker</h1>
     </header>
     <h2>Add A New Item:</h2>
-    #deal with this later
-    <div><form action=""></form></div>
+
+    <div class="container">
+      <form align="center">
+        <table border="0" id="table1">
+          <tr>
+            <th colspan="2">
+              <div class="table_cell">
+                <label for="name" class="label">Name:</label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Where was the expense made?"
+                  class="input"
+                />
+              </div>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <div class="table_cell">
+                <label for="date" class="label">Date:</label>
+                <input type="date" class="input" />
+              </div>
+            </th>
+            <th>
+              <div class="table_cell">
+                <label for="date" class="label">Amount:</label>
+                <input type="number" min="0.00" step="0.01" class="input" />
+              </div>
+            </th>
+          </tr>
+        </table>
+        <button type="subtmit" id="add_expense_button">Add Expense</button>
+      </form>
+    </div>
 
     <script src="script.js"></script>
   </body>
