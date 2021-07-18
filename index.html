@@ -14,7 +14,7 @@
 
     <div class="container">
       <form align="center" id="formID">
-        <table border="0" id="table1">
+        <table border="0" class="table">
           <tr>
             <th colspan="2">
               <div class="table_cell">
@@ -53,7 +53,16 @@
         <button type="submit" id="add_expense_button">Add Expense</button>
       </form>
     </div>
-
+    <div class="container">
+      <table class="table expense_table">
+        <tr>
+          <th class="output">Name</th>
+          <th class="output">Date</th>
+          <th class="output">Amount</th>
+          <th class="delete_cell">Delete</th>
+        </tr>
+      </table>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
